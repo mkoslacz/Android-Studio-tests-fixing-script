@@ -81,7 +81,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]
 then
 	git stash
 	git clean -xdf
-	find ${HOME}${androidStudioPrefsLocation}${androidStudioVersion}/tasks | grep ${PWD##*/} | xargs rm || echo -e "${red}No AS tasks & contexts to delete found. Make sure that you are in the AS project dir.${noColor}"
+	find ${HOME}${androidStudioPrefsLocation}${androidStudioVersion}/tasks | grep ${PWD##*/} | xargs rm || echo -e "${red}No AS tasks & contexts to delete found. Make sure that you are in the AS project dir and you have tweaked the Android Studio version and prefs dir inside this script.${noColor}"
 	git stash pop || true
 	echo -e "\nPurging the project for tests fixing purposes done. Read the log above. If everything is ok, reopen and rebuild the project."
 fi
