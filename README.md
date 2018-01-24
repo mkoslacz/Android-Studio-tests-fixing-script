@@ -7,6 +7,11 @@ It is designed to work with AndroidStudio 2.3 and later and git-based project
 with a .gitignore file adapted to work with AS git project (that ignores .gradle 
 and .idea folders, ie. https://gist.github.com/iainconnor/8605514)
 
+Script itself will ask you for confirmation after displaying the checklist when run.
+
+# Warning!
+**This script "fixes" Android Studio test problems by reseting your project settings! All code changes will be kept, but you will lose your project config like run configurations defaults, existing run configurations, supressed warnings etc. It's usually just a few clicks to restore it, but please, be careful. Take into account that restoring these settings from backup could diminish effects of this script, so it's recommended to restore them manually.**
+
 ## The basic procedure (without the script)
 
 First of all, the first procedure you shall execute when you have the mentioned problems is:
