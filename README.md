@@ -11,7 +11,7 @@ Script itself will ask you for confirmation after displaying the checklist when 
 # Warning!
 **This script "fixes" Android Studio test problems by reseting your project settings! All of the code changes will be kept, but you will lose your project config like run configurations defaults, existing run configurations, supressed warnings etc. It's usually just a few clicks to restore it, but please, be careful. Take into account that restoring these settings from backup could diminish effects of this script, so it's recommended to restore them manually.**
 
-## When could it be available? 
+## When these problems happen? 
 
 I noticed tests problems when: 
 - porting a project between AS versions, 
@@ -42,7 +42,7 @@ If it does not help - use this script as below.
 
 ### Running the script - manual 
 
-1. Close your AS project.
+1. Close your AS project. **IMPORTANT**
 
 2. Run this script inside your AS project dir.
 
