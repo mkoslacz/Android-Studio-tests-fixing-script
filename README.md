@@ -16,7 +16,7 @@ Script itself will ask you for confirmation after displaying the checklist when 
 I noticed tests problems when: 
 - porting a project between AS versions, 
 - adding a submodule git root in AS and then changing a branch to the branch without submodule, 
-- switching between branches frequently,
+- switching between branches frequently (especially when having lots of generated code),
 - and sometimes randomly.
 
 ## Before running the script
