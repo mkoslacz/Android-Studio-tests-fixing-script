@@ -20,8 +20,8 @@
 
 ########################
 
-androidStudioVersion="2.3" # edit this if needed - see above
-androidStudioPrefsLocation="/Library/Preferences/AndroidStudio" # edit this if needed - see above
+androidStudioVersion="2.3" # edit this if needed - see in the repo readme
+androidStudioPrefsLocation="/Library/Preferences/AndroidStudio" # edit this if needed - see in the repo readme
 red='\033[0;31m'
 yellow='\033[1;33m'
 green='\033[0;32m'
@@ -36,7 +36,7 @@ ${yellow}Make sure that:${noColor}
 	- you run this script inside the project you want to fix,
 	- this project is a git-based project with a .gitignore file adapted to work with AndroidStudio (that ignores .gradle and .idea folders, ie. https://gist.github.com/iainconnor/8605514),
 	- your project is ${red}NOT${noColor} opened in AndroidStudio right now,
-	- you have tweaked this script to meet your AndroidStudio version and prefs location (see docs inside the script).
+	- you have tweaked this script to meet your AndroidStudio version and prefs location (see readme in the repo mentioned below).
 
 All code changes will be kept, but ${red}you will lose your project config${noColor} like run configurations defaults, existing run configurations, supressed warnings etc.
 
